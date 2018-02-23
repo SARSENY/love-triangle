@@ -13,7 +13,6 @@ module.exports = function getLoveTrianglesCount(preferences = []) {
       first=chislo;
       second=preferences[first];
       third=preferences[second];
-      //console.log(chislo,'i',first,'f',second,'s',third,'t');
       if (first==preferences[third])
       {
         lovers=lovers+1;
